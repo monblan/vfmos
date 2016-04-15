@@ -1,0 +1,902 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix {
+  overflow: hidden;
+  zoom: 1; /* for IE */
+}
+
+.toogle-menu {
+    display: none;
+}
+
+.toggler-menu {
+    background-color: #0B50A7;
+    line-height: 2em;
+    display: none;
+}
+
+.toggler-menu a {
+    color: white;
+    text-align: center;
+}
+
+.wrap-big {
+    background: url(../img/city.jpg) top center no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: 1070px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-left: 2px solid #bbb;
+    border-right: 2px solid #bbb;
+}
+
+.main {
+    max-width: 1030px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-family: "OpenSansRegular";
+    color: #5e5e5e;
+}
+
+.center {
+    text-align: center;
+}
+
+.font-blue {
+    color: #0058b9;
+}
+
+.buttons {
+    display: inline-block;
+    background-color: #528ad4;
+    font-family: OpenSansBold;
+    height: 40px;
+    padding: 7px 20px;
+    border-radius: 6px;
+    color: white;
+    border-bottom: 3px solid #2d557e;
+    font-size: 15px;
+}
+
+.btn-back-call {
+    float: right;
+}
+
+i {
+    color: #00438D;
+}
+
+.between-section {
+    padding-top: 60px;
+}
+
+.top-line {
+    min-height: 90px;
+    position: relative;
+    padding: 17px 5px 0;
+}
+
+.phone-top {
+    font-family: OpenSansBold;
+    font-size: 18px;
+    line-height: 40px;
+    height: 40px;
+    float: right;
+}
+
+.phone-ico-top {
+    float: right;
+}
+
+.phone-top-ico {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.top-nav ul li {
+    /*    float: left;*/
+}
+
+.top-nav ul li a {
+    height: 60px;
+    line-height: 60px;
+    font-family: OpenSansBold;
+    font-size: 15px;
+    color: #528ad4;
+    padding: 19px 13px;
+}
+
+.current-menu-item {
+    background-color: #0058b9;
+}
+
+.current-menu-item a {
+    color: white !important;
+}
+
+.flexslider {
+    margin: 0 0 0 !important;
+    border-top: 0 !important;
+    width: 100%;
+}
+
+.flex-direction-nav a {
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.flex-direction-nav a:before {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-family: "FontAwesome" !important;
+    font-size: 28px;
+    display: inline-block;
+    content: '\f104' !important;
+    text-align: center;
+}
+
+.flex-prev {
+    padding-right: 4px !important;
+}
+
+.flex-next {
+    padding-right: 8px !important;
+}
+
+.flex-direction-nav a.flex-next:before {
+    content: '\f105' !important;
+}
+
+.flex-control-nav {
+    bottom: 5px !important;
+}
+
+.flex-control-paging li a.flex-active {
+    background: #528AD4 !important;
+    cursor: default;
+}
+
+.flex-control-paging li a {
+    background: #fff !important;
+    cursor: default;
+}
+
+.container-phone {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-right: 36px;
+    padding: 0 15px;
+    display: inline-block;
+    float: right;
+}
+
+.multilang {
+    position: absolute;
+    right: 0;
+}
+
+.multilang a {
+    background-color: #528AD4;
+    color: white;
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+}
+
+.slide-content {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    margin-left: 134px;
+    margin-top: 56px;
+    font-family: OpenSansBold;
+    color: white;
+}
+
+.header-slide {
+    font-size: 27px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.delimite-line {
+    width: 60px;
+    margin-top: 5px;
+    height: 3px;
+    background-color: #528ad4;
+}
+
+.text-slide {
+    font-size: 15px;
+    padding: 20px 0px;
+    font-family: OpenSansRegular;
+}
+
+.text-slide span {
+    font-family: OpenSansBold;
+    font-size: 26px;
+}
+
+.flexslider .flex-direction-nav a,
+.flexslider .flex-direction-nav a {
+    display: block;
+    /* I added this line */
+}
+
+.flex-direction-nav .flex-next {
+    right: 0 !important;
+    margin-right: 40px;
+    opacity: 1 !important;
+}
+
+.flex-direction-nav .flex-prev {
+    left: 0 !important;
+    opacity: 1 !important;
+    margin-left: 40px;
+}
+
+.flexslider {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.programms {
+    padding-top: 20px;
+}
+
+.about.header-programms {
+    font-family: HelveticaBold;
+    font-size: 30px;
+}
+
+.bloks-programms {
+    padding: 25px 10px;
+    text-align: justify;
+    padding-left: 16px;
+    /* Обнуляем для родителя*/
+    line-height: 0;
+    font-size: 1px;
+    /* 1px для Opera */
+}
+
+.bloks-programms:after {
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+    display: inline-block;
+}
+
+.programm {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    /*                        border: 1px solid #000;*/
+    /* Востанавливаем у потомков, кроме последнего*/
+    line-height: normal;
+    font-size: 14px;
+    /* Без него в Opera будет отступ под элементами */
+    vertical-align: top;
+}
+
+.picture-program {
+    display: inline-block;
+    background: url(../img/border-rectangle.png) left top no-repeat;
+    background-size: 100% 100%;
+    padding: 5px 5px 0 5px;
+    border-radius: 4px;
+}
+
+.picture-program img {
+    width: 100%;
+    height: 184px;
+}
+
+.title-program {
+    margin-top: 15px;
+    font-family: HelveticaBold;
+    font-size: 20px;
+    color: #0058B9;
+    text-transform: uppercase;
+}
+
+.excerpt-programm {
+    padding: 23px 5px;
+    font-size: 15px;
+    font-family: OpenSansRegular;
+    line-height: 1.3em;
+}
+
+.block-btn {
+    margin-top: 10px;
+}
+
+.advantages {
+    padding-top: 50px;
+}
+
+.advantage2,
+.advantage3,
+.advantage4 {
+    border-left: 1px solid #eee;
+}
+
+.blocks-advantages {
+    padding: 70px 10px 25px 10px;
+    text-align: justify;
+    /* Обнуляем для родителя*/
+    line-height: 0;
+    font-size: 1px;
+    /* 1px для Opera */
+}
+
+.blocks-advantages:after {
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+    display: inline-block;
+}
+
+.advantage {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    /* Востанавливаем у потомков, кроме последнего*/
+    line-height: normal;
+    font-size: 14px;
+    /* Без него в Opera будет отступ под элементами */
+    vertical-align: top;
+}
+
+.picture-advantage {
+    position: relative;
+}
+
+.num-circle {
+    top: 0;
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    border-radius: 50%;
+    background-color: #528AD4;
+    position: absolute;
+    color: white;
+    text-align: center;
+    right: -20px;
+}
+
+.about .header-programms {
+    padding-top: 20px;
+}
+
+.header-programms h3 {
+    font-size: 30px;
+}
+
+.about-content {
+    margin-top: 30px;
+    text-align: justify;
+    /* Обнуляем для родителя*/
+    line-height: 0;
+    font-size: 1px;
+    /* 1px для Opera */
+}
+
+.about-content:after {
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+    display: inline-block;
+}
+
+.tele {
+    display: inline-block;
+    height: 1px;
+    min-height: 327px;
+    width: 53%;
+    background: url(../img/bg-tele.png) top center no-repeat;
+    background-size: 100% 100%;
+    padding: 6px;
+    /* Востанавливаем у потомков, кроме последнего*/
+    line-height: normal;
+    /* Без него в Opera будет отступ под элементами */
+    vertical-align: top;
+}
+
+.about-text {
+    display: inline-block;
+    width: 41%;
+    min-width: 140px;
+    height: 1px;
+    min-height: 327px;
+    border: 2px solid #528AD4;
+    border-radius: 4px;
+    padding: 30px;
+    font-size: 15px;
+    font-family: OpenSansRegular;
+    overflow: auto;
+    /* Востанавливаем у потомков, кроме последнего*/
+    line-height: normal;
+    /* Без него в Opera будет отступ под элементами */
+    vertical-align: top;
+}
+
+.tele-inside {
+    background-color: #fff;
+    height: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.lt-ie10 .about-text {
+    float: right;
+}
+
+.test {
+    margin-top: 40px;
+}
+
+.blocks-tests {
+    margin-top: 30px;
+    padding: 0 50px;
+    text-align: justify;
+    /* Обнуляем для родителя*/
+    line-height: 0;
+    font-size: 1px;
+    /* 1px для Opera */
+}
+
+.blocks-tests:after {
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+    display: inline-block;
+}
+
+.one-block-tests {
+    display: inline-block;
+    width: 28%;
+    text-align: center;
+    /* Востанавливаем у потомков, кроме последнего*/
+    line-height: normal;
+    /* Без него в Opera будет отступ под элементами */
+    vertical-align: top;
+}
+
+.name-test {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: HelveticaBold;
+    font-size: 20px;
+    color: #0058B9;
+    text-transform: uppercase;
+}
+
+.one-block-tests img {
+    width: 100%;
+}
+
+.little {
+    font-size: 11px;
+    line-height: 24px;
+}
+
+.testimonials {
+    margin-top: 40px;
+}
+
+.footer-top {
+    display: table;
+    width: 100%;
+    min-height: 90px;
+    background-color: #4778B9;
+    padding: 10px 8px;
+    font-size: 16px;
+    color: white;
+    font-family: OpenSansBold;
+}
+
+.footer-nav {
+    min-height: 55px;
+    background-color: #003875;
+    padding: 21px 78px;
+    color: white;
+    text-align: center;
+}
+
+.footer-contacts {
+    display: inline-block;
+    margin-left: 70px;
+    float: left;
+}
+
+.footer-contacts {
+    display: inline-block;
+}
+
+.link-logo {
+    display: table-cell;
+    width: 315px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.bottom-phone i {
+    font-size: 22px;
+}
+
+.one-line-footer {
+    display: inline-block;
+    height: 31px;
+    float: left;
+}
+
+.footer-top .text {
+    margin-left: 8px;
+    display: inline-block;
+    line-height: 36px;
+    float: left;
+    padding-right: 28px;
+}
+
+.footer-top .ico {
+    font-size: 26px;
+    display: inline-block;
+    float: left;
+}
+
+.phone-footer,
+.skype-footer,
+.mail-footer,
+.doctor-footer {
+    display: inline-block;
+    float: left;
+}
+
+.social {
+    display: inline-block;
+    padding-left: 30px;
+    border-left: 1px solid #333;
+}
+
+.social i {
+    color: white;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.icons {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.second-slider {
+    padding: 28px 0 !important;
+    max-width: 80%;
+    margin: 0 auto !important;
+}
+
+.slide-testimonial {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.second-slider .flex-direction-nav a:before {
+    color: #003875 !important;
+}
+
+.second-slider .flex-direction-nav a {
+    border: 1px solid #003875;
+}
+
+.second-slider .flex-direction-nav .flex-prev {
+    margin-left: -70px;
+    margin-top: 70px;
+}
+
+.second-slider .flex-direction-nav .flex-next {
+    margin-right: -70px;
+    margin-top: 70px;
+}
+
+.second-slider .flex-control-nav {
+    display: none;
+}
+
+.second-slider .flex-direction-nav a {
+    width: 35px;
+    height: 35px;
+}
+
+.flex-direction-nav a:before {
+    font-size: 35px;
+}
+
+.footer-nav ul {
+    text-align: justify;
+    max-width: 930px;
+    padding-left: 16px;
+    /* Обнуляем для родителя*/
+    line-height: 0;
+    font-size: 1px;
+    /* 1px для Opera */
+}
+
+.footer-nav ul:after {
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+    display: inline-block;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    text-align: left;
+    /* Востанавливаем у потомков, кроме последнего*/
+    line-height: normal;
+    font-size: 14px;
+    /* Без него в Opera будет отступ под элементами */
+    vertical-align: top;
+}
+
+.footer-nav ul li a {
+    color: white;
+    font-family: OpenSansBold;
+    font-size: 14px;
+}
+
+.second-slider .flex-direction-nav a:before {
+    font-size: 35px;
+}
+
+.pic-testimonial {
+    display: inline-block;
+    width: 184px;
+    height: 184px;
+    margin: 0 auto;
+    background: url(../img/border-circle.png) top left no-repeat;
+    padding: 8px;
+    margin-bottom: 40px;
+}
+
+.wrap-img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.description-testimonial {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #ECECEC;
+    position: relative;
+    font-size: 15px;
+    font-family: OpenSansRegular;
+}
+
+.treangle {
+    background-color: #ECECEC;
+    width: 38px;
+    height: 38px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    left: calc(50% - 19px);
+    top: -12px;
+}
+
+.date-and-name {
+    display: inline-block;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.name,
+.date {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 22px;
+    background-color: #ECECEC;
+    color: blue;
+    font-weight: 800;
+    font-family: OpenSansBold;
+    font-size: 15px;
+}
+
+.date {
+    margin-left: 2px;
+}
+
+.text-description-testimonial {
+    z-index: 10;
+    position: relative;
+    padding: 20px 30px;
+    text-align: left;
+}
+
+.blue-line {
+    display: inline-block;
+    width: 61px;
+    border: 1px solid blue;
+    position: absolute;
+    left: 31px;
+    top: 30px;
+}
+
+
+/*==============================================*/
+
+
+/*http://css-live.ru/articles-css/ravnomernoe-vyravnivanie-blokov-po-shirine.html*/
+
+.top-nav ul {
+    text-align: justify;
+    max-width: 930px;
+    padding-left: 16px;
+    /* Обнуляем для родителя*/
+    line-height: 0;
+    font-size: 1px;
+    /* 1px для Opera */
+}
+
+.top-nav ul:after {
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+    display: inline-block;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    text-align: left;
+    /*                        border: 1px solid #000;*/
+    /* Востанавливаем у потомков, кроме последнего*/
+    line-height: normal;
+    font-size: 14px;
+    /* Без него в Opera будет отступ под элементами */
+    vertical-align: top;
+}
+
+.wrap-img-adv {
+    position: relative;
+    display: inline-block;
+}
+
+.line-divider {
+    display: none;
+}
+
+.advantage img {
+    width: 100%;
+}
+
+
+/*мобильное меню*/
+
+.hidden-menu {
+    display: block;
+    position: fixed;
+    list-style: none;
+    padding: 2px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 180px;
+    background-color: #eee;
+    height: auto;
+    top: 0;
+    left: -200px;
+    transition: left .2s;
+    z-index: 20;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+
+.hidden-menu-ticker {
+    display: none;
+}
+
+.btn-menu {
+    color: #fff;
+    background-color: #0058B9;
+    padding: 7px;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    transition: left .23s;
+    z-index: 3;
+    width: 35px;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    border-radius: 0 4px 4px 0;
+}
+
+.btn-menu span {
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0 0;
+    transition: all .1s linear .23s;
+    position: relative;
+}
+
+.btn-menu span.first {
+    margin-top: 0;
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu {
+    left: 180px;
+    top: 2px;
+    z-index: 30;
+}
+
+.hidden-menu-ticker:checked ~ .hidden-menu {
+    left: 0;
+    box-shadow: 0 0 20px rgba(0,0,0,.6);
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+    -webkit-transform: rotate(45deg);
+    top: 8px;
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+    opacity: 0;
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+    -webkit-transform: rotate(-45deg);
+    top: -8px;
+}
+
+.logo-img {
+    display: inline-block;
+}
+
+.logo-back-call {
+    display: inline-block;
+    float: right;
+}

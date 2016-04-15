@@ -1,0 +1,46 @@
+.top-line {
+    display: none;
+}
+
+.top-nav ul {
+    padding-left: 0;
+}
+
+.top-nav ul li {
+    display: block;
+    text-align: center;
+    background-color: #0B50A7;
+    padding: 0 10px;
+    border-top: 1px solid #456c9c;
+}
+
+.flexslider {
+    margin-top: 22px !important;
+}
+
+.top-nav ul li:nth-child(1) {
+    height: 2.5em;
+    line-height: 2.5em;
+}
+
+.top-nav ul li:hover {
+    background-color: #184371 !important;
+}
+
+.top-nav ul li a {
+    line-height: 30px;
+    color: white;
+    padding: 4px 3px !important;
+    font-size: 14px;
+}
+
+.current-menu-item {
+    background-color: #377bc5 !important;
+}
+
+.toogle-menu {
+    display: block;
+    text-align: left;
+    height: 2em !important;
+    width: 2em;
+}
